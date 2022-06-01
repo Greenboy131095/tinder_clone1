@@ -73,7 +73,7 @@ const ChatScreen = ({name}) => {
 
   ];
   function findName(userName){
-    return userName.name ==={name}.name;
+    return userName.name ===name;
   }
   const variable= messages.find(findName);
   
